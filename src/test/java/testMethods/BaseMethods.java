@@ -1,9 +1,9 @@
 package testMethods;
 
-        import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.SelenideElement;
 
-        import static com.codeborne.selenide.Condition.enabled;
-        import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Condition.enabled;
+import static com.codeborne.selenide.Condition.visible;
 
 public class BaseMethods {
 

@@ -9,6 +9,7 @@ public class SendMailMethods {
 
     static Faker faker = new Faker();
     public static String textBody = faker.chuckNorris().fact();
+
     public static void send_email() {
         waitElementForVisible(mailLogo);
         clickOnElement(writeMailButton);
@@ -16,7 +17,7 @@ public class SendMailMethods {
         setValueToElement(toField, "abigor76@gmail.com");
         sendKeysToElement(subjectField, "none subject");
         sendKeysToElement(contentBodyField, textBody);
-clickOnElement(sendButton);
-waitElementForVisible(messegeSentTitle);
+        clickOnElement(sendButton);
+        waitElementForVisible(messegeSentTitle);
     }
 }
