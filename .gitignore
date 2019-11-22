@@ -1,0 +1,10 @@
+.gradle
+.idea
+build
+classes
+.allure
+*.log
+src/test/resources/dataForAllure/history/
+src/test/resources/dataForAllure/
+environment.properties
+testDB.archive
