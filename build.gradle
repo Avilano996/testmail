@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
+apply plugin: 'java'
+dependencies {
+    compile('junit:junit:+',
+            'com.codeborne:selenide:5.4.1',
+            'org.slf4j:slf4j-nop:+',
+            'org.rendersnake:rendersnake:+',
+            'com.mashape.unirest:unirest-java:1.4.9',
+            'org.aspectj:aspectjweaver:+',
+            'io.searchbox:jest:5.3.3')
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '0.16'
+}

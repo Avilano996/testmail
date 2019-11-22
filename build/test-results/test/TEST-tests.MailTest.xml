@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.MailTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-22T12:59:55" hostname="WIN-E6FCP8E069T" time="32.267">
+  <properties/>
+  <testcase name="login_and_send_email" classname="tests.MailTest" time="32.267"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[нояб. 22, 2019 6:59:55 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 40766
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+нояб. 22, 2019 6:59:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+нояб. 22, 2019 6:59:58 PM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+нояб. 22, 2019 6:59:59 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=78.0.3904.108 Platform=XP
+нояб. 22, 2019 6:59:59 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.4.1
+нояб. 22, 2019 6:59:59 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+нояб. 22, 2019 6:59:59 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on XP (9ee4c0856664894a09cae200e29715b9)
+нояб. 22, 2019 7:00:27 PM com.codeborne.selenide.drivercommands.CloseDriverCommand run
+INFO: Close webdriver: 13 -> ChromeDriver: chrome on XP (9ee4c0856664894a09cae200e29715b9)
+нояб. 22, 2019 7:00:27 PM com.codeborne.selenide.drivercommands.CloseBrowser run
+INFO: Trying to close the browser ChromeDriver ...
+нояб. 22, 2019 7:00:27 PM com.codeborne.selenide.drivercommands.CloseDriverCommand run
+INFO: Closed webdriver 13 in 707 ms
+]]></system-err>
+</testsuite>
